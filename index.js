@@ -24,10 +24,10 @@ const options = {
 			description: "A simple Express Library API"
 		},
 		servers: [{
-			url: "http://localhost:4000"
+			url: "http://localhost:4000",
 		}],
 	},
-	apis: ["*./routes/*.js"],
+	apis: ["./routes/*.js"],
 };
 
 const specs = swaggerJsDoc(options);

@@ -1,8 +1,9 @@
 {
   "books": [
     {
-      "id": "123456",
-      "name": "book"
+      "id": "12345678",
+      "title": "Book",
+      "author": "Aut H. Or"
     }
   ]
 }
